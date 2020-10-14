@@ -25,8 +25,6 @@ devkitARM() { docker run --rm -it -u="$(id -g)" -v "$PWD":"/${PWD##*/}" -w "/${P
  - `-v "$PWD":"/${PWD##*/}"`: Link the current directory as a volume.
  - `-w "/${PWD##*/}"`: Set the current directory as the docker working directory.
 
-#### What it does
-
 ### Using the shortcut command
 
 Once this is done, either source the file (`. ~/.bash_profile`) or start a new terminal session. Navigate to your nds project in terminal. You can then:
